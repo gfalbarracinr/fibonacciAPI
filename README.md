@@ -11,3 +11,6 @@ I created a Fibonacci API, the Fibonacci algorithm was implemented with memory, 
 Related to API, the API was created with node JS + express with only one endpoint (/fibonacci/:number) it will return the fibonacci number.
 
 
+## LIVE EXAMPLE
+
+You can preview a live example here https://giovannyfibonacciapi.herokuapp.com/fibonacci/3

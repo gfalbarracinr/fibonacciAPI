@@ -22,7 +22,7 @@ app.get('/fibonacci/:number', (req, res) => {
   }
   try {
     const result = fib.fibonacciOf(number);
-    res.send(result);
+    res.status(200).send(result);
   } catch(error) {
     res.status(500).send("sorry, problem found");
   } 
